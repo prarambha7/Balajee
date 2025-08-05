@@ -17,9 +17,11 @@ const AboutUsPage = () => {
 
         
         <div className="relative max-w-4xl mx-auto text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">
-            About Us
-          </h1>
+<h1 className="text-5xl md:text-6xl font-bold mb-6">
+  <span className="text-white">About</span>{' '}
+  <span className="text-red-600">Us</span>
+</h1>
+
           <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
             Transforming homes across Nepal with quality appliances and exceptional service
           </p>

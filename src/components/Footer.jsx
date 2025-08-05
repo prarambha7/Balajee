@@ -17,6 +17,7 @@ const Footer = ({ setCurrentPage }) => {
            <Link  to="/products"> <li><button  className="hover:text-red-400">Products</button></li></Link>
            <Link  to="/about"><li><button  className="hover:text-red-400">About Us</button></li></Link>
             <Link  to="/contact"><li><button  className="hover:text-red-400">Contact</button></li></Link>
+            <Link  to="/getquote"><li><button className="hover:text-red-400">Get a Quote</button></li></Link>
           </ul>
         </div>
         <div>
